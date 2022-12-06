@@ -32,3 +32,20 @@
     };
     treeSum(treeM);
 ```
+## Education
+**May 2019 – October2019 – Educational Center for Programming and High Tech**
+
+> *Course: web application development with javascript*
+> *Description: Functions, Arrays, and Hashes. DOM. OOP. Еvents, event handling. SVG, Canvas. Animation. Render tree. JSON. AJAX.SPA*
+
+
+**February 2018 – May 2018 - Educational Center for Programming and High Tech**
+> *Course: HTML, CSS, JavaScript*
+> *Description: HTML5, CSS3, Animation, Flex, Grid CSS*
+
+
+**September 2012 – February 2018 - Belarusian State Pedagogical University named after Maxim Tank**
+
+## Languages
+* Russian - native speaker.
+* English - A1 (A2 in process…)
