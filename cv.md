@@ -2,7 +2,7 @@
 ## My contact info:
 1. Phone: +48571940719
 2. Email: alex.matusevich23@gmail.com
-3. My [Telegram:](https://t.me/AleksandrMatusevich)
+3. My Telegram: [https://t.me/AleksandrMatusevich](https://t.me/AleksandrMatusevich)
 ## About Me
  I think one of my greatest strengths is hardworking. I also a have great communication skills, which allow me to become part of any team.
 ## Skils
