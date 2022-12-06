@@ -4,7 +4,7 @@
 2. Email: alex.matusevich23@gmail.com
 3. My [Telegram:](https://t.me/AleksandrMatusevich)
 ## About Me
-> I think one of my greatest strengths is hardworking. I also a have great communication skills, which allow me to become part of any team.
+ I think one of my greatest strengths is hardworking. I also a have great communication skills, which allow me to become part of any team.
 ## Skils
 *	**Programming Languages:** JavaScript, HTML5, CS3.
 *	**Source Control:** Git.
@@ -31,7 +31,7 @@
         return sum;  
     };
     treeSum(treeM);
-```
+```    
 ## Education
 **May 2019 – October2019 – Educational Center for Programming and High Tech**
 
