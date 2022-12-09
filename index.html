@@ -50,10 +50,10 @@
             </section>
             <section class="section" id="skills">
                 <h2>Skils</h2>
-                <ul class="skills-list">
-                    <li><span class="skills-item">Programming Languages:</span>  JavaScript, HTML5, CS3.</li>
-                    <li><span class="skills-item">Source Control:</span> Git.</li>
-                    <li><span class="skills-item">Tools:</span> Visual Studio Code, Brackets.</li>
+                <ul class="section-list">
+                    <li><span class="section-item">Programming Languages:</span>  JavaScript, HTML5, CS3.</li>
+                    <li><span class="section-item">Source Control:</span> Git.</li>
+                    <li><span class="section-item">Tools:</span> Visual Studio Code, Brackets.</li>
                 </ul>
             </section>
             <section class="section" id="codeEx">
@@ -65,7 +65,7 @@ var treeM = [ 5, 7,
             [ 9, [] ], 1, 8];
 function treeSum(x){
     var sum = 0;
-    for(var i = 0; i < x.length; i++) {
+    for(var i = 0; i &lt; x.length; i++) {
         var v = x[i];
         if (typeof v == 'object') {
         sum += treeSum(v);
@@ -78,8 +78,26 @@ treeSum(treeM);
                     </code>
                 </pre>
             </section>
-            <section class="section" id="education"></section>
-            <section class="section" id="languages"></section>
+            <section class="section" id="education">
+                <h2>Education</h2>
+                <h3>May 2019 – October2019 – Educational Center for Programming and High Tech</h3>
+                <ul class="section-list">
+                    <li><span class="section-item">Course:</span>  web application development with javascript</li>
+                    <li><span class="section-item">Description:</span> Functions, Arrays, and Hashes. DOM. OOP. Еvents, event handling. SVG, Canvas. Animation. Render tree. JSON. AJAX.SPA</li>
+                </ul>
+                <h3>February 2018 – May 2018 - Educational Center for Programming and High Tech</h3>
+                <ul class="section-list">
+                    <li><span class="section-item">Course:</span> HTML, CSS, JavaScript</li>
+                    <li><span class="section-item">Description:</span> HTML5, CSS3, Animation, Flex, Grid CSS</li>
+                </ul>
+                <h3>September 2012 – February 2018 - Belarusian State Pedagogical University named after Maxim Tank</h3>
+            </section>
+            <section class="section" id="languages">
+                <h2>Languages</h2>
+                <h3>English - A1 (A2 in process…)</h3>
+                <h3>Russian - native speaker.</h3>
+                <h3>Belarusian - second language</h3>
+            </section>
         </div>
     </main>
     <footer class="footer">
@@ -89,7 +107,7 @@ treeSum(treeM);
                 <a href="https://github.com/Matusevich86" class="nav-link" target="_blank">Matusevich Aliaksandr</a>
             </div>
             <div>
-                <img src="./assets/img/rs1.png" class="footer-img" alt="logo">
+                <a href="https://rs.school/js/" target="_blank"><img src="./assets/img/rs1.png" class="footer-img" alt="logo"></a>
             </div>
         </div>
     </footer>

@@ -24,6 +24,9 @@ h2 {
   color: #0000b3;
   text-transform: uppercase;
 }
+h3 {
+  color: #000080;
+}
 .header {
   background-color: #66b3ff;
 }
@@ -75,8 +78,10 @@ h2 {
   flex-wrap: wrap;
 }
 .section {
-  width: 50%;
+  width: calc(50% - 30px);
   padding-bottom: 20px;
+  border-bottom: solid 1px #66b3ff;
+  margin-left: 20px;
 }
 @media (max-width: 768px) {
   .section {
@@ -118,11 +123,11 @@ h2 {
   color: #0000b3;
   font-weight: 400;
 }
-.skills-list {
+.section-list {
   font-weight: 400;
   color: #0000b3;
 }
-.skills-item{
+.section-item{
   font-weight: 600;
   color: black;
 }
