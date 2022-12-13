@@ -70,6 +70,10 @@ h3 {
   position: relative;
 }
 
+.nav-item a {
+  position: relative;
+}
+
 .nav-item a::before {
   content: '';
   position: absolute;
@@ -84,6 +88,13 @@ h3 {
 	width: calc(100% - 30px);;
 }
 
+.nav-item a::before {
+	transition: width 0.65s;
+}
+
+.nav-item a:hover:before {
+	width: calc(100% - 30px);;
+}
 .nav-item a::before {
 	transition: width 0.65s;
 }
@@ -116,6 +127,10 @@ h3 {
   width: 120px;
 }
 
+.footer-img {
+  max-width: 100px;
+}
+
 .section-profile {
   width: 100%;
   display: flex;
@@ -125,11 +140,16 @@ h3 {
   text-transform: uppercase;
   border-bottom: solid 10px #66b3ff;
   margin-top: 20px;
+
 }
 
 .profile-img {
   max-width: 200px;
   border-radius: 100px;
+}
+
+.name {
+  text-align: center;
 }
 
 .name {
@@ -162,3 +182,8 @@ h3 {
 .pre {
   margin: -20px 0;
 }
+
+.pre {
+  margin: -20px 0;
+}
+
