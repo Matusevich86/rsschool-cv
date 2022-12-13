@@ -5,8 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/logo1.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
     <title>My CV</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#codeEx" class="nav-link">Code Example</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile">
+                <img src="./assets/img/photo.jpg" class="profile-img" alt="My photo">
+                <div class="name">
+                    <h1>Aliaksandr Matusevich</h1>
+                    <h3>Front-end developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2>My contact</h2>
+                <ul class="contact-list">
+                    <li>Phone: <a href="tel:+48571940719">+48571940719</a></li>
+                    <li>My email: <a href="mailto:alex.matusevich23@gmail.com">alex.matusevich23@gmail.com</a></li>
+                    <li>My Telegram: <a href="https://t.me/AleksandrMatusevich" target="_blank">https://t.me/AleksandrMatusevich</a></li>
+                    <li>My GitHub: <a href="https://github.com/Matusevich86" target="_blank">https://github.com/Matusevich86</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2>Summary</h2>
+                <p> I think one of my greatest strengths is hardworking. I also a have great communication skills, which allow me to become part of any team.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2>Skils</h2>
+                <ul class="section-list">
+                    <li><span class="section-item">Programming Languages:</span>  JavaScript, HTML5, CS3.</li>
+                    <li><span class="section-item">Source Control:</span> Git.</li>
+                    <li><span class="section-item">Tools:</span> Visual Studio Code, Brackets.</li>
+                </ul>
+            </section>
+            <section class="section" id="codeEx">
+                <h2>Code example</h2>
+                <pre class="pre">
+                    <code>
+var treeM = [ 5, 7, 
+            [ 4, [2], 8, [1,3], 2 ], 
+            [ 9, [] ], 1, 8];
+function treeSum(x){
+    var sum = 0;
+    for(var i = 0; i &lt; x.length; i++) {
+        var v = x[i];
+        if (typeof v == 'object') {
+        sum += treeSum(v);
+        }else{
+        sum += v;
+        }
+        }; return sum;  
+        };
+treeSum(treeM);
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="education">
+                <h2>Education</h2>
+                <h3>May 2019 – October2019 – Educational Center for Programming and High Tech</h3>
+                <ul class="section-list">
+                    <li><span class="section-item">Course:</span>  web application development with javascript</li>
+                    <li><span class="section-item">Description:</span> Functions, Arrays, and Hashes. DOM. OOP. Еvents, event handling. SVG, Canvas. Animation. Render tree. JSON. AJAX.SPA</li>
+                </ul>
+                <h3>February 2018 – May 2018 - Educational Center for Programming and High Tech</h3>
+                <ul class="section-list">
+                    <li><span class="section-item">Course:</span> HTML, CSS, JavaScript</li>
+                    <li><span class="section-item">Description:</span> HTML5, CSS3, Animation, Flex, Grid CSS</li>
+                </ul>
+                <h3>September 2012 – February 2018 - Belarusian State Pedagogical University named after Maxim Tank</h3>
+            </section>
+            <section class="section" id="languages">
+                <h2>Languages</h2>
+                <h3>English - A1 (A2 in process…)</h3>
+                <h3>Russian - native speaker.</h3>
+                <h3>Belarusian - second language</h3>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="nav-item">
+                © 2022 
+                <a href="https://github.com/Matusevich86" class="nav-link" target="_blank">Matusevich Aliaksandr</a>
+            </div>
+            <div>
+                <a href="https://rs.school/js/" target="_blank"><img src="./assets/img/rs_school_js.svg" class="footer-img" alt="logo"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
