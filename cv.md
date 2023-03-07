@@ -1,6 +1,6 @@
 # Aliaksandr Matusevich
 ## My contact info:
-1. Phone: +48571940719
+1. Phone: +375445534303
 2. Email: alex.matusevich23@gmail.com
 3. My Telegram: [https://t.me/AleksandrMatusevich](https://t.me/AleksandrMatusevich)
 ## About Me
